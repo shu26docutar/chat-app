@@ -4,5 +4,9 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
+<<<<<<< Updated upstream
   # validates :name, presence: true
+=======
+         validates :name, presence: true
+>>>>>>> Stashed changes
 end
