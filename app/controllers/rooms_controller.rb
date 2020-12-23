@@ -22,7 +22,6 @@ class RoomsController < ApplicationController
         redirect_to root.path
     end
     
-
     private
     def room_params
         params.require(:room).permit(:name, user_ids: [])
